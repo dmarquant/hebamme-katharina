@@ -1,0 +1,144 @@
+@font-face {
+  font-family: raleway;
+  src: url(fonts/raleway.medium.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/roboto.light.ttf);
+}
+
+body {
+    max-width: 1016px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+	padding: 0 12px;
+}
+
+/* Nav bar style */
+
+nav {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+	margin: 4px 0;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+	
+nav > ul > li {
+	display: inline-block;
+	line-height: 64px;
+	
+	margin-left: 18px;
+}
+
+nav a {
+	
+	display: block;
+	text-decoration: none;
+	
+	font-family: raleway;
+	font-size: 22px;
+	color: #333333;
+}
+
+nav > ul > li > a:hover {
+    /* border-bottom: 3px solid #333333; */
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+nav ul ul {
+	display: none;
+	
+	position: absolute;
+    top: 64px;
+}
+
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+nav ul ul li {
+    /*width: 360px;*/
+    float: none;
+    display: list-item;
+    position: relative;
+	
+	padding: 0 18px;
+	
+	background: #fff;
+	z-index: 10;
+}
+
+nav ul ul li a {
+	font-size: 18px;
+}
+
+/* Style for page */
+section {
+	font-family: roboto;
+	font-size: 18px;
+}
+
+.banner {
+  position: relative;
+  height: 320px;
+}
+
+.title-box {
+  font-family: raleway;
+  font-size: 2.2em;
+  text-align: right;
+
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+
+  padding: 8px 12px;
+  margin: 0;
+
+  background: #DDDDDDCC;
+  color: #333333;
+}
+
+#complaints-banner {
+  background: url("images/belly.jpg");
+  background-position: center;
+}
+
+#postpartum-banner {
+  background: url("images/feet.jpg");
+  background-position: center;
+}
+
+#pregnancy-banner {
+  background: url("images/field_banner.jpg");
+  background-position: center;
+}
+
+/* Page navigation */
+
+section:target {
+	display: block;
+}
+
+section {
+	position: absolute;
+	top: 0;
+	max-width: 1016px;
+	/* Leave space for the nav */
+	padding-top: 92px;
+	display: none;
+	
+	z-index: -1;
+}
