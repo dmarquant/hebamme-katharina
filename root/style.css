@@ -127,18 +127,20 @@ section {
 }
 
 /* Page navigation */
-
-section:target {
-	display: block;
-}
-
 section {
 	position: absolute;
 	top: 0;
 	max-width: 1016px;
 	/* Leave space for the nav */
 	padding-top: 92px;
-	display: none;
 	
 	z-index: -1;
+}
+
+section, section:target ~ #start {
+  display: none;
+}
+
+#start, section:target{
+  display: block;
 }
