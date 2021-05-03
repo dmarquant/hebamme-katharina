@@ -4,12 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>Hebamme Katharina Piwecki</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="mobile_style.css">
   </head>
-  
+
   <body>
-	<nav>
+	<header>
+	  <a href="#start" id="logo">
+	    <img src="images/logo.png" width="200px">
+	  </a>  
+	</header>
+	
+	<nav id="navbar">
 	  <a href="#start">
 		<img src="images/logo.png" height="80px">
 	  </a>
@@ -22,101 +27,239 @@
 			<li><a href="#wochenbett">Wochenbettbetreuung</a></li>
 		  </ul>
 		</li>
-        <li><a href="#profil">Über mich</a></li>
+        <li><a href="#profil">Das Bin Ich</a></li>
 		<li><a href="#leitbild">Leitbild</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
 	  </ul>
 	</nav>
-  
-    <section id="vorsorge">
-	    <div id="pregnancy-banner" class="banner">
-          <!-- <img src="images/field_banner.jpg"> -->
-          <h1 class="title-box">Schwangerenvorsorge</h1>
+
+
+	<section class="page" id="menu">
+		<nav>
+		  <a id="close-button" class="mobile-navigation-button" href="javascript:history.back()"></a>
+		 
+		  <ul>
+			<li><a href="#betreuung">Betreuungsangebot</a>
+			  <ul>
+				<li><a href="#vorsorge">Schwangerenvorsorge</a></li>
+				<li><a href="#beschwerden">Hilfe bei Schwangerschaftsbeschwerden</a></li>
+				<li><a href="#wochenbett">Wochenbettbetreuung</a></li>
+			  </ul>
+			</li>
+			<li><a href="#profil">Über mich</a></li>
+			<li><a href="#leitbild">Leitbild</a></li>
+			<li><a href="#kontakt">Kontakt</a></li>
+		  </ul> 
+		</nav>
+	</section>
+		
+	<section id="betreuung">
+		<a id="menu-button" class="mobile-navigation-button" href="#menu"></a>
+		
+		<div class="banner">
+		  <img src="images/banner/flower.jpg">
+          <h1 class="title">Betreuungsangebot</h1>
         </div>
-	  
-        <p>
-          Schwangerenvorsorge dient dazu, den Verlauf der Schwangerschaft zu überwachen. Sie
-          richtet sich nach den Mutterschaftsrichtlinien des gemeinsamen Bundesausschusses der
-          Ärzte und Krankenkassen für Schwangerschaft, Geburt und Wochenbett. Diese Richtlinien
-          sind für Hebammen und Ärzte bindend. 
-        </p>
+		
+		<div class="text">
+			<p>
+			Jeder Schwangeren, Gebärenden, Wöchnerin und Stillenden steht die Betreuung durch 
+			eine Hebamme zu. Die Kosten für die Leistungen werden von den Krankenkassen übernommen 
+			und von der Hebamme direkt mit diesen abgerechnet.
+			</p>
+			
+			<p>
+			Wenn Sie privat versichert sind, ist es sinnvoll, sich vor Inanspruchnahme der 
+			Unterstützung einer Hebamme mit Ihrer Krankenkasse in Verbindung zu setzen und 
+			die jeweiligen Kostenübernahmeregelungen zu erfragen.
+			</p>
+			
+			<p>
+			Erfahren sie mehr zu meinem Angebot:
+				<ul>
+					<li><a href="#vorsorge">Schwangerenvorsorge</a></li>
+					<li><a href="#beschwereden">Hilfe bei Schwangerschaftsbeschwerde</a></li>
+					<li><a href="#wochenbett">Wochenbettbetreuung</a></li>
+				</ul>
+			</p>
+		</div>
+	</section>	
+	
+	<section id="vorsorge">
+		<a id="menu-button" class="mobile-navigation-button" href="#menu"></a>
+		
+		<div class="banner">
+		  <img src="images/banner/field.jpg">
+          <h1 class="title">Schwangerenvorsorge</h1>
+        </div>
+		
+		<div class="text">
+			<p>
+			  Schwangerenvorsorge dient dazu, den Verlauf der Schwangerschaft zu überwachen. Sie
+			  richtet sich nach den Mutterschaftsrichtlinien des gemeinsamen Bundesausschusses der
+			  Ärzte und Krankenkassen für Schwangerschaft, Geburt und Wochenbett. Diese Richtlinien
+			  sind für Hebammen und Ärzte bindend. 
+			</p>
 
-        <p>
-          Vorsorgeuntersuchungen während der Schwangerschaft können von der Hebamme, dem
-          Gynäkologen oder beiden gemeinsam durchgeführt werden. Bis zur 30. Schwangerschaftswoche
-          findet alle 4 Wochen eine Untersuchung statt, danach alle 14 Tage. Nach dem Erreichen des
-          Entbindungstermins alle 2-3 Tage bis täglich.
-        </p>
+			<p>
+			  Vorsorgeuntersuchungen während der Schwangerschaft können von der Hebamme, dem
+			  Gynäkologen oder beiden gemeinsam durchgeführt werden. Bis zur 30. Schwangerschaftswoche
+			  findet alle 4 Wochen eine Untersuchung statt, danach alle 14 Tage. Nach dem Erreichen des
+			  Entbindungstermins alle 2-3 Tage bis täglich.
+			</p>
 
-        <p>
-          Folgende Untersuchung umfassen die Schwangerenvorsorge:
-        </p>
+			<p>
+			  Folgende Untersuchung umfassen die Schwangerenvorsorge:
+			</p>
 
 
-        <ul>
-          <li>Herztonkontrolle des Kindes mittels Dopton</li>
-          <li>Urinuntersuchung</li>
-          <li>Gewichtskontrolle</li>
-          <li>Vitalzeichenkontrolle</li>
-          <li>Überwachung der zeitgerechten Entwicklung des Kindes</li>
-        </ul>
+			<ul>
+			  <li>Herztonkontrolle des Kindes mittels Dopton</li>
+			  <li>Urinuntersuchung</li>
+			  <li>Gewichtskontrolle</li>
+			  <li>Vitalzeichenkontrolle</li>
+			  <li>Überwachung der zeitgerechten Entwicklung des Kindes</li>
+			</ul>
 
-        <p>
-          Die Untersuchungen dienen dazu, die in der Schwangerschaft geprägten physiologischen
-          Veränderungen im Körper, zu kontrollieren. Sollten Abweichungen auftreten, überweise ich
-          sie in die ärztliche Betreuung zurück. 
-        </p>
-    </section>
-
-    <section id="beschwerden">
-      <div id="complaints-banner" class="banner">
-        <!-- <img src="images/field_banner.jpg"> -->
-        <h1 class="title-box">Hilfe bei<br>Schwangerschaftsbeschwerden</h1>
-      </div>
-
-      <p>
-        Ergänzend zur Schwangerenvorsorge berate ich sie gerne bei Ernährungsfragen, bei der Wahl
-        des Geburtsortes, bei allgemeinen Fragen oder bei Schwangerschaftsbeschwerden.
-      </p>
-
-      <p>
-        Ich stehe Ihnen zur Seite bei Beschwerden wie z.B Ödemen, Eisenmangel, Rücken- und
-        Ischiasbeschwerden und Übelkeit. Sprechen Sie mich einfach an. Die Leistungen werden
-        von der Krankenkasse übernommen. 
-      </p>
-    </section>
+			<p>
+			  Die Untersuchungen dienen dazu, die in der Schwangerschaft geprägten physiologischen
+			  Veränderungen im Körper, zu kontrollieren. Sollten Abweichungen auftreten, überweise ich
+			  sie in die ärztliche Betreuung zurück. 
+			</p>
+		</div>
+	</section>
  
-    <section id="wochenbett">
-	  <div id="postpartum-banner" class="banner">
-        <!-- <img src="images/field_banner.jpg"> -->
-        <h1 class="title-box">Wochenbett</h1>
-      </div>
-      <p>
-        Nach der Geburt ihres Kindes beginnt das Wochenbett. Die Zeit des Wochenbettes, welches
-        zwischen 6-8Wochen andauert dient folgender Funktionen:
-      </p>
+	<section id="beschwerden">
+	    <a id="menu-button" class="mobile-navigation-button" href="#menu"></a>
+		
+		<div class="banner">
+		  <img src="images/banner/belly.jpg">
+          <h1 class="title">Hilfe bei Schwangerschaftsbeschwerden</h1>
+        </div>
 
-      <p>
-        <ul>
-          <li>Aufbau einer Mutter-Kind-Beziehung: Adaption an die neue Situation und psychosoziale Veränderungen</li>
-          <li>Rückbildung: Uterus, Vagina, Bauchmuskulatur, Pigmentveränderungen, Beckenboden, Blutvolumen Ödemen</li>
-          <li>Wundheilung: Plazentahaftstelle, Schürfung, Riss- und Schnittverletzungen</li>
-          <li>Laktation: Ingangkommen der Milchbildung und Aufbau einer guten Stillbeziehung</li>
-          <li>Hormonumstellung: Beginn der normalen Ovarialtätigkeit</li>
-        </ul>
-      </p>
+		<div class="text">
+		  <p>
+			Ergänzend zur Schwangerenvorsorge berate ich sie gerne bei Ernährungsfragen, bei der Wahl
+			des Geburtsortes, bei allgemeinen Fragen oder bei Schwangerschaftsbeschwerden.
+		  </p>
 
-      <p>
-        Jede Frau hat den Anspruch auf eine Hebammenbetreuung im Wochenbett.  In den ersten 10
-        Tagen ist ein täglicher Besuche durch die Hebamme möglich, bei Bedarf auch zwei. Danach
-        stehen weitere 16 Termine bis zur 12. Woche nach der Geburt zur Verfügung. Bis zum Ende
-        der Stillzeit oder bei Ernährungsproblemen kannst Du dich dann noch weiterhin an die
-        Hebamme wenden. 
-      </p>
+		  <p>
+			Ich stehe Ihnen zur Seite bei Beschwerden wie z.B Ödemen, Eisenmangel, Rücken- und
+			Ischiasbeschwerden und Übelkeit. Sprechen Sie mich einfach an. Die Leistungen werden
+			von der Krankenkasse übernommen. 
+		  </p>
+		</div>
     </section>
-  
+
+    <section id="wochenbett">
+		<a id="menu-button" class="mobile-navigation-button" href="#menu"></a>
+		
+		<div class="banner">
+		  <img src="images/banner/feet.jpg">
+          <h1 class="title">Wochenbettbetreuung</h1>
+        </div>
+
+		<div class="text">
+			<p>
+			Nach der Geburt ihres Kindes beginnt das Wochenbett. Die Zeit des Wochenbettes, welches
+			zwischen 6-8Wochen andauert dient folgender Funktionen:
+			</p>
+
+			<p>
+			<ul>
+			  <li>Aufbau einer Mutter-Kind-Beziehung: Adaption an die neue Situation und psychosoziale Veränderungen</li>
+			  <li>Rückbildung: Uterus, Vagina, Bauchmuskulatur, Pigmentveränderungen, Beckenboden, Blutvolumen Ödemen</li>
+			  <li>Wundheilung: Plazentahaftstelle, Schürfung, Riss- und Schnittverletzungen</li>
+			  <li>Laktation: Ingangkommen der Milchbildung und Aufbau einer guten Stillbeziehung</li>
+			  <li>Hormonumstellung: Beginn der normalen Ovarialtätigkeit</li>
+			</ul>
+			</p>
+
+			<p>
+			Jede Frau hat den Anspruch auf eine Hebammenbetreuung im Wochenbett.  In den ersten 10
+			Tagen ist ein täglicher Besuche durch die Hebamme möglich, bei Bedarf auch zwei. Danach
+			stehen weitere 16 Termine bis zur 12. Woche nach der Geburt zur Verfügung. Bis zum Ende
+			der Stillzeit oder bei Ernährungsproblemen kannst Du dich dann noch weiterhin an die
+			Hebamme wenden. 
+			</p>
+		</div>
+    </section>
+		
+	<section id="profil">
+		<a id="menu-button" class="mobile-navigation-button" href="#menu"></a>
+		
+		<img id="profile_pic" src="images/profil.jpg">
+		
+		<ul id="profile_text">
+			<li>Geboren und aufgewachsen in Mannheim Geboren und aufgewachsen in Mannheim Geboren und aufgewachsen in Mannheim</li>
+		</ul>
+	</section>
+		
+	<section id="leitbild">
+		<a id="menu-button" class="mobile-navigation-button" href="#menu"></a>
+		
+		<div class="banner">
+		  <img src="images/banner/on_hand.jpg">
+          <h1 class="title">Leitbild</h1>
+        </div>
+
+		<div class="text">
+			<p class="quote">
+			<strong>„Hilf mir, es selbst zu tun!“</strong> - <em>Maria Montessorie</em>
+			</p>
+		
+			<p>Leitbild meiner Arbeit als Hebamme ist es, Schwangere, Mütter, Kinder und deren
+			Familien individuell, persönlich, fachkompetent und liebevoll in den natürlichen
+			Vorgängen von Schwangerschaft und Elternschaft zu begleiten. Mein Betreuungsschwerpunkt
+			liegt im Empowerment, sodass Frauen den höchsten Grad an Autonomie und Selbstbestimmung
+			spüren. Dabei möchte ich die werdende Mutter in ihrer Körperwahrnehmung, Zuversicht und
+			Intuition stärken. Ebenso ist es mir wichtig den Familien, in diesem bedeutenden
+			Lebensabschnitt wertschätzend und ressourcenorientiert zu Seite stehen. Stringent und
+			nachhaltig setzte ich mich für das gesundheitliche und emotionale Wohl von Schwangere,
+			Mütter, Kinder und deren Familien eine. Fortbildungen und neue Evidenzen leiten mein
+			Handeln. Ich evaluiere meine Arbeit und reflektiere die Ergebnisse dieser. In meiner
+			Arbeit als Hebamme handle ich achtsam, respektvoll und verantwortungsbewusst.
+			</p>
+
+			<p>
+			Wichtig ist mir ein ergänzendes interdisziplinäres Netzwerk. Ich stehe im regelmäßigen
+			Austausch mit Kolleg*innen und anderen Berufsgruppen.
+			</p>
+		</div>
+    </section>
+	
 	<section id="start">
-	  <h1>Start</h1>
+		<a id="menu-button" class="mobile-navigation-button" href="#menu"></a>
+		
+        <div class="banner">
+		  <img src="images/banner/grass.jpg">
+          <h1 class="title">Herzlich Willkommen</h1>
+        </div>
+
+		<div class="text">
+			<p>
+			Herzlich Willkommen auf meiner Homepage. Schön das Sie hier sind. Mein Name 
+			ist Katharina Piwecki und ich bin freiberufliche Hebamme in Mannheim. Hier 
+			erfahren Sie Wissenswertes zu mir, meiner Arbeit und meinen Angeboten.
+			</p>
+			
+			<p>
+			Gerne betreue ich Sie in ihrer Schwangerschaft und /oder in der Zeit nach der
+			Geburt. Nehmen Sie gerne <a href="#kontakt">Kontakt</a> zur mir auf, ich freue
+			mich auf Sie!
+			</p>
+			
+			<h2>Betreuungsgebiete in Mannheim</h2>
+			<ul>
+				<li>Innenstadt/Jungbusch</li>
+				<li>Neckarstadt-West, Neckarstadt-Ost, Oststadt</li>
+				<li>Schwetzingervorstadt</li>
+				<li>Lindenhof, Niederfeld, Almenhof, Neckarau</li>
+				<li>Wohlgelegen</li>
+				<li>Käfertal</li>
+				<li>Feudenheim</li>
+			</ul>
+		</div>
 	</section>
   </body>
 </html>
