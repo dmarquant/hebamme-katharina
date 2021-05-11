@@ -90,6 +90,57 @@ nav ul ul a {
 	background: url(images/close.png);
 }
 
+#contact-box {
+	background: #e3d9af;
+	
+	width: 100%;
+	
+	margin-top: 120px;
+	padding: 48px 36px;
+
+	text-align: center;
+	font-size: 20px;
+}
+
+hr {
+	border: 2px solid #333;
+	width: 48px;
+}
+
+#contact-name {
+	font-size: 36px;
+}
+
+.row {
+	display: flex;
+	padding: 12px;
+}
+
+.column {
+	width: 50%;
+}
+
+#profile-pic {
+	width: 100%;
+}
+
+#profile-text {
+	padding: 12px;
+	line-height: 28px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	
+	font-size: 12px;
+	
+	text-align: center;
+	padding: 12px;
+	background: #e3d9af;
+}
 
 @media screen and (min-width: 500px) {
 	.title {
@@ -198,16 +249,6 @@ nav ul ul a {
 
 	nav ul ul li a {
 		font-size: 16px;
-	}
-	
-	#profile_pic {
-		width: 50%;
-		float: left;
-		margin: 6px 12px;
-	}
-	
-	#profile_text {
-		float: right;
 	}
 }
 
