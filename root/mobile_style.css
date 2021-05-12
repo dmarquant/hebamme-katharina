@@ -11,6 +11,10 @@
 body {
 	margin: 0;
 	font-family: opensans;
+	
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -96,13 +100,14 @@ nav ul ul a {
 	width: 100%;
 	
 	margin-top: 120px;
+	margin-bottom: 120px;
 	padding: 48px 36px;
 
 	text-align: center;
 	font-size: 20px;
 }
 
-hr {
+#contact-hr {
 	border: 2px solid #333;
 	width: 48px;
 }
@@ -130,16 +135,19 @@ hr {
 }
 
 footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
 	width: 100%;
 	
 	font-size: 12px;
 	
 	text-align: center;
-	padding: 12px;
-	background: #e3d9af;
+	padding: 12px 0;
+	
+	margin-top: auto;
+}
+
+#footer-hr {
+	border: 0.5px solid #999;
+	width: 100%;
 }
 
 @media screen and (min-width: 500px) {
