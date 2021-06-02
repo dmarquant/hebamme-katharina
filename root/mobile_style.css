@@ -106,7 +106,7 @@ nav ul ul a {
   display: block;
 }
 
-#menu-button {
+.mobile-navigation-button {
     background: url(images/burger.png);
 }
 
